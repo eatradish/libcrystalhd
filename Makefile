@@ -14,8 +14,8 @@ ECHO = ${AT} echo
 BCGCC = g++
 
 
-INCLUDES = -I./ -I/usr/include -I./include
-INCLUDES += -I./include/link
+INCLUDES = -I./ -I/usr/include
+INCLUDES += -I/usr/include/link
 
 
 CPPFLAGS = -D__LINUX_USER__
