@@ -52,7 +52,7 @@ clean:
 
 install:
 	mkdir -p $(DESTDIR)$(LIBDIR)
-	mkdir -p $(DESTDIR)/lib/firmware
+	mkdir -p $(DESTDIR)/usr/lib/firmware
 	mkdir -p $(DESTDIR)/usr/include/libcrystalhd
 	cp libcrystalhd_if.h $(DESTDIR)/usr/include/libcrystalhd/
 	chmod 0644 $(DESTDIR)/usr/include/libcrystalhd/libcrystalhd_if.h
