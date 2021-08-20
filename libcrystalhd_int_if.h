@@ -30,7 +30,7 @@
 #define _BCM_DRV_INT_H_
 
 
-#include "bc_dts_glob_lnx.h"
+#include <include/bc_dts_glob_lnx.h>
 
 #ifdef __cplusplus
 extern "C" {

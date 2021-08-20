@@ -32,14 +32,14 @@
 #include <stdlib.h>
 #include <sys/ioctl.h>
 #include <unistd.h>
-#include "7411d.h"
-#include "libcrystalhd_version.h"
-#include "bc_decoder_regs.h"
-#include "libcrystalhd_if.h"
-#include "libcrystalhd_priv.h"
-#include "libcrystalhd_int_if.h"
-#include "libcrystalhd_fwcmds.h"
-#include "libcrystalhd_fwload_if.h"
+#include <include/7411d.h>
+#include <include/libcrystalhd_version.h>
+#include <include/bc_decoder_regs.h>
+#include <libcrystalhd_if.h>
+#include <libcrystalhd_priv.h>
+#include <libcrystalhd_int_if.h>
+#include <libcrystalhd_fwcmds.h>
+#include <libcrystalhd_fwload_if.h>
 
 #if (!__STDC_WANT_SECURE_LIB__)
 inline bool memcpy_s(void *dest, size_t sizeInBytes, void *src, size_t count)

@@ -26,9 +26,9 @@
  *
  *******************************************************************/
 
-#include "7411d.h"
-#include "bc_defines.h"
-#include "bc_decoder_regs.h"
+#include <include/7411d.h>
+#include <include/link/bc_defines.h>
+#include <include/bc_decoder_regs.h>
 #include "libcrystalhd_priv.h"
 #include "libcrystalhd_int_if.h"
 #include "libcrystalhd_fwcmds.h"

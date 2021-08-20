@@ -43,7 +43,7 @@ THIS SOFTWARE IS PROVIDED “AS IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCL
 
 *********************************************************************/
 
-#include "7411d.h"
+#include <include/7411d.h>
 #include "libcrystalhd_fwcmds.h"
 #include "libcrystalhd_priv.h"
 

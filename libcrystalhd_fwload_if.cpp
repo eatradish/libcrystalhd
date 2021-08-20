@@ -26,9 +26,9 @@
  *
  *******************************************************************/
 
-#include "7411d.h"
-#include "bc_defines.h"
-#include "bcm_70012_regs.h"	/* Link Register defs */
+#include <include/7411d.h>
+#include <include/link/bc_defines.h>
+#include <include/link/bcm_70012_regs.h>	/* Link Register defs */
 #include "libcrystalhd_fwload_if.h"
 #include "libcrystalhd_int_if.h"
 #include "libcrystalhd_priv.h"

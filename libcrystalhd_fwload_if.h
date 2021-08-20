@@ -30,9 +30,9 @@
 #define _libcrystalhd_FWLOAD_IF_
 
 #ifndef __APPLE__
-#include "bc_dts_glob_lnx.h"
+#include <include/bc_dts_glob_lnx.h>
 #else
-#include "bc_dts_glob_osx.h"
+#include <include/bc_dts_glob_osx.h>
 #endif
 #include "libcrystalhd_if.h"
 

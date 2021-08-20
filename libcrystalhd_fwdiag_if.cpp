@@ -26,8 +26,8 @@
  *
  *******************************************************************/
 
-#include "7411d.h"
-#include "bc_defines.h"
+#include <include/7411d.h>
+#include <include/link/bc_defines.h>
 #include "libcrystalhd_int_if.h"
 #include "libcrystalhd_if.h"
 #include "libcrystalhd_priv.h"

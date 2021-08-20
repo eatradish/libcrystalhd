@@ -34,7 +34,7 @@
 #include <sys/types.h>
 #include <sys/ipc.h>
 #include <sys/ioctl.h>
-#include "7411d.h"
+#include <include/7411d.h>
 #include "libcrystalhd_if.h"
 #include "libcrystalhd_int_if.h"
 #include "libcrystalhd_priv.h"

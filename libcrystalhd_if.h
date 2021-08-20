@@ -31,8 +31,8 @@
 #ifndef _BCM_LDIL_IF_H_
 #define _BCM_LDIL_IF_H_
 
-#include "bc_dts_defs.h"
-#include "bc_dts_types.h"
+#include <include/bc_dts_defs.h>
+#include <include/bc_dts_types.h>
 
 #define FLEA_MAX_TRICK_MODE_SPEED	6
 
